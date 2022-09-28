@@ -5,8 +5,9 @@ var btnClear=document.querySelector("#btn-clear")
 
 var serverUrl = "https://api.funtranslations.com/translate/groot.json";
 
+
 function getTranslationUrl(text) {
-    return serverUrl + "?text=" + text;
+    return serverUrl +"?"+"text=" + text;
 }
 
 function errorHandler(error){
